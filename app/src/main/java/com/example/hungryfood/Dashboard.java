@@ -4,50 +4,46 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Dashboard extends AppCompatActivity {
-    Button tv,camera,computer,mobile,headphone;
+    ImageView btn_veg,btn_non_veg;
+    Button btn_add_recipe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dashboard);
-        biryani = findViewById(R.id.btn_biryani);
-        veg = findViewById(R.id.btn_veg);
-        nonveg  = findViewById(R.id.btn_nonveg);
 
+        btn_add_recipe=(Button) findViewById(R.id.btn_add_recipe);
+        btn_veg=(ImageView) findViewById(R.id.btn_veg);
+        btn_non_veg=(ImageView) findViewById(R.id.btn_non_veg);
 
-
-        biryani.setOnClickListener(new View.OnClickListener() {
+        btn_add_recipe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Dashboard.this, biryani.class);
+                Intent intent = new Intent(Dashboard.this, AddRecipeActivity.class);
                 startActivity(intent);
             }
         });
 
-        veg.setOnClickListener(new View.OnClickListener() {
+        btn_veg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Dashboard.this, veg.class);
+                Intent intent = new Intent(Dashboard.this, AllVegRecipiesActivity.class);
                 startActivity(intent);
             }
         });
 
-
-
-        nonveg.setOnClickListener(new View.OnClickListener() {
+        btn_non_veg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Dashboard.this, nonveg.class);
+                Intent intent = new Intent(Dashboard.this, AllNonVegRecipiesActivity.class);
                 startActivity(intent);
             }
         });
-
-
-
     }
 }
 

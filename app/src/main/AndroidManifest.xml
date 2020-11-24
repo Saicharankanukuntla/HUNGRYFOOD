@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hungryfood">
-        <activity android:name=".MainActivity">
+        <activity android:name=".AllVegRecipiesActivity"></activity>
+        <activity android:name=".AllNonVegRecipiesActivity"></activity>
+        <activity android:name=".AddRecipeActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

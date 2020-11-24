@@ -1,69 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:background="@color/cardview_dark_background"
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
     <Button
-        android:id="@+id/btn_logo"
-        android:layout_width="54dp"
-        android:layout_height="54dp"
-        android:background="@drawable/hungry_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
-    <Button
-        android:id="@+id/btn_cart"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@drawable/add_cart"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
-    <Button
-        android:id="@+id/btn_biryani"
-        android:layout_width="273dp"
-        android:layout_height="191dp"
-        android:background="@drawable/biryani"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
+        android:id="@+id/btn_add_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Add Recipe"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        />
 
-    <Button
+    <ImageView
         android:id="@+id/btn_veg"
-        android:layout_width="273dp"
-        android:layout_height="191dp"
-        android:background="@drawable/veg"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.580" />
-
-    <Button
-        android:id="@+id/btn_nonveg"
-        android:layout_width="273dp"
-        android:layout_height="191dp"
-        android:background="@drawable/nonveg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.980" />
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Veg Iteams"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:src="@drawable/veg"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/btn_non_veg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Non Veg Iteams"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:src="@drawable/nonveg"/>
+
+
+</LinearLayout>

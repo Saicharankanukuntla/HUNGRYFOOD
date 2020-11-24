@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">hungryfood</string>
+    <string name="app_name">Hungryfood</string>
+
+    <string-array name="Category">
+        <item>Veg</item>
+        <item>Non_Veg</item>
+    </string-array>
+
 </resources>

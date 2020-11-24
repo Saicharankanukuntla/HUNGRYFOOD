@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "344483065142",
-    "firebase_url": "https://hungryfood-23b0c.firebaseio.com",
-    "project_id": "hungryfood-23b0c",
-    "storage_bucket": "hungryfood-23b0c.appspot.com"
+    "project_number": "212666841850",
+    "firebase_url": "https://hungryfood-dc0eb.firebaseio.com",
+    "project_id": "hungryfood-dc0eb",
+    "storage_bucket": "hungryfood-dc0eb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:344483065142:android:66d7e4971b34bfe2231797",
+        "mobilesdk_app_id": "1:212666841850:android:36c45a424ac42d695b6743",
         "android_client_info": {
           "package_name": "com.example.hungryfood"
         }
       },
       "oauth_client": [
         {
-          "client_id": "344483065142-jo9b3ugu37cchtr3enap9tqaarjeg002.apps.googleusercontent.com",
+          "client_id": "212666841850-qfpcqa90ndj1qpda543uii84ea4fgvt1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBfP-Ga2cGIA-R6_pQTpgZHrLVYs414blU"
+          "current_key": "AIzaSyDFdf0GprA0cj7bkDzzXz9RThCfH13a7BY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "344483065142-jo9b3ugu37cchtr3enap9tqaarjeg002.apps.googleusercontent.com",
+              "client_id": "212666841850-qfpcqa90ndj1qpda543uii84ea4fgvt1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
